@@ -11,6 +11,10 @@ namespace WMS.Application.Common.Interfaces
 
         DbSet<TodoItem> TodoItems { get; set; }
 
+        DbSet<ProductItem> ProductItems { get; set; }
+
+        DbSet<ProductList> ProductLists { get; set; }
+
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }
