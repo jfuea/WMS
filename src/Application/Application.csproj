@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <Folder Include="ProductItems\Queries\" />
-    <Folder Include="ProductLists\ Queries\" />
   </ItemGroup>
 
 </Project>
